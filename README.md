@@ -1,3 +1,24 @@
+## moveit_resources (indigo) - 0.6.0-0
+
+The packages in the `moveit_resources` repository were released into the `indigo` distro by running `/usr/bin/bloom-release moveit_resources --track indigo --rosdistro indigo` on `Sat, 30 Jan 2016 21:24:20 -0000`
+
+The `moveit_resources` package was released.
+
+Version of package(s) in repository `moveit_resources`:
+- upstream repository: https://github.com/ros-planning/moveit_resources.git
+- release repository: https://github.com/ros-gbp/moveit_resources-release.git
+- rosdistro version: `0.5.0-0`
+- old version: `0.5.0-0`
+- new version: `0.6.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## moveit_resources (jade) - 0.5.0-0
 
 The packages in the `moveit_resources` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade moveit_resources` on `Thu, 30 Apr 2015 23:44:16 -0000`
