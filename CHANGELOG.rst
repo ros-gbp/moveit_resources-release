@@ -2,6 +2,18 @@
 Changelog for package moveit_resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.6.0 (2016-01-30)
+------------------
+* Don't make include dir into build
+* Place include folder in the devel space instead of the build space
+  fixes #5 .
+* Add travis indicator
+* added branch name to build status
+* added travis build status indicator in README.md
+* Merge pull request #3 from ros-planning/add-travis
+  added travis support
+* Contributors: Dave Coleman, Dave Hershberger, Nantas Nardelli, isucan
+
 0.5.0 (2013-07-30)
 ------------------
 * bump version for hydro
