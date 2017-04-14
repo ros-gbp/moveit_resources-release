@@ -1,0 +1,86 @@
+ros-lunar-moveit-resources (0.6.2-0zesty) zesty; urgency=high
+
+  * [fix] Missing license to fanuc pkgs imported from ros-industrial/fanuc. #11 <https://github.com/ros-planning/moveit_resources/issues/11>. (#12 <https://github.com/ros-planning/moveit_resources/issues/12>)
+  * [fix] Missing run depends for [robot|joint]_state_publisher (#14 <https://github.com/ros-planning/moveit_resources/issues/14>)
+  * [fix] Correct warehouse ros mongo (#13 <https://github.com/ros-planning/moveit_resources/issues/13>)
+  * [improve] test chomp (#10 <https://github.com/ros-planning/moveit_resources/issues/10>)
+  * Contributors: Chittaranjan Srinivas Swaminathan, Dave Coleman, G.A. vd. Hoorn, kirstyellis
+
+ -- Dave Coleman <dave@dav.ee>  Thu, 06 Apr 2017 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.6.1-0zesty) zesty; urgency=high
+
+  * [sys] Added Fanuc robot model (m10ia) for system testing. Improve README (#7 <https://github.com/ros-planning/moveit_resources/issues/7>, #8 <https://github.com/ros-planning/moveit_resources/issues/8>)
+  * Contributors: Dave Coleman, Robert Haschke
+
+ -- Dave Coleman <dave@dav.ee>  Fri, 26 Aug 2016 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.6.0-0zesty) zesty; urgency=high
+
+  * Don't make include dir into build
+  * Place include folder in the devel space instead of the build space
+    fixes #5 .
+  * Add travis indicator
+  * added branch name to build status
+  * added travis build status indicator in README.md
+  * Merge pull request #3 from ros-planning/add-travis
+    added travis support
+  * Contributors: Dave Coleman, Dave Hershberger, Nantas Nardelli, isucan
+
+ -- Dave Coleman <dave@dav.ee>  Fri, 29 Jan 2016 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.5.0-0zesty) zesty; urgency=high
+
+  * bump version for hydro
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 29 Jul 2013 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.4.1-0zesty) zesty; urgency=high
+
+  * fix for missing include path
+  * fix for missing config.h
+
+ -- Dave Coleman <dave@dav.ee>  Tue, 02 Jul 2013 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.4.0-0zesty) zesty; urgency=high
+
+  * fix config.h so it is not created in the source dir
+
+ -- Dave Coleman <dave@dav.ee>  Thu, 23 May 2013 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.3.1-0zesty) zesty; urgency=high
+
+  * create config file with location of test resources
+
+ -- Dave Coleman <dave@dav.ee>  Sun, 19 May 2013 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.3.0-0zesty) zesty; urgency=high
+
+  * change robot name to "pr2" to match urdf
+
+ -- Dave Coleman <dave@dav.ee>  Fri, 08 Mar 2013 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.2.0-0zesty) zesty; urgency=high
+
+  * bump version
+  * update urdf
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 14 Jan 2013 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.1.1-0zesty) zesty; urgency=high
+
+  * fix buildtool tag
+
+ -- Dave Coleman <dave@dav.ee>  Wed, 19 Dec 2012 15:00:00 -0000
+
+ros-lunar-moveit-resources (0.1.0-0zesty) zesty; urgency=high
+
+  * add build system
+  * adding test resources
+  * Update README.md
+  * Update README.md
+  * Initial commit
+
+ -- Dave Coleman <dave@dav.ee>  Wed, 12 Dec 2012 15:00:00 -0000
+
+
