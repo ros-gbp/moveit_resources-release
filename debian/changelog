@@ -1,0 +1,111 @@
+ros-kinetic-moveit-resources (0.6.5-1xenial) xenial; urgency=high
+
+  * [maintenance] unify with official panda_moveit_config: define ready and extended poses
+  * [maintenance] fanuc_moveit_config: cleanup definition of move_group capabilities (#23 <https://github.com/ros-planning/moveit_resources/issues/23>)
+  * [fix]         fixed normals of link4 STLs
+  * Contributors: Robert Haschke
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 17 Feb 2020 23:00:00 -0000
+
+ros-kinetic-moveit-resources (0.6.4-1xenial) xenial; urgency=high
+
+  * Added Franka Emika's Panda robot (#19 <https://github.com/ros-planning/moveit_resources/issues/19>)
+  * Contributors: Mohmmad Ayman
+
+ -- Dave Coleman <dave@dav.ee>  Wed, 05 Sep 2018 22:00:00 -0000
+
+ros-kinetic-moveit-resources (0.6.3-1xenial) xenial; urgency=high
+
+  * [enhance] Update param scope (#17 <https://github.com/ros-planning/moveit_resources/issues/17>)
+  * [enhance] Use the "Hybrid" collision checker and created a sample config file for parameters (#16 <https://github.com/ros-planning/moveit_resources/issues/16>)
+  * Contributors: Simon Schmeisser, Will Baker
+
+ -- Dave Coleman <dave@dav.ee>  Tue, 17 Apr 2018 22:00:00 -0000
+
+ros-kinetic-moveit-resources (0.6.2-1xenial) xenial; urgency=high
+
+  * [fix] Missing license to fanuc pkgs imported from ros-industrial/fanuc. #11 <https://github.com/ros-planning/moveit_resources/issues/11>. (#12 <https://github.com/ros-planning/moveit_resources/issues/12>)
+  * [fix] Missing run depends for [robot|joint]_state_publisher (#14 <https://github.com/ros-planning/moveit_resources/issues/14>)
+  * [fix] Correct warehouse ros mongo (#13 <https://github.com/ros-planning/moveit_resources/issues/13>)
+  * [improve] test chomp (#10 <https://github.com/ros-planning/moveit_resources/issues/10>)
+  * Contributors: Chittaranjan Srinivas Swaminathan, Dave Coleman, G.A. vd. Hoorn, kirstyellis
+
+ -- Dave Coleman <dave@dav.ee>  Thu, 06 Apr 2017 22:00:00 -0000
+
+ros-kinetic-moveit-resources (0.6.1-1xenial) xenial; urgency=high
+
+  * [sys] Added Fanuc robot model (m10ia) for system testing. Improve README (#7 <https://github.com/ros-planning/moveit_resources/issues/7>, #8 <https://github.com/ros-planning/moveit_resources/issues/8>)
+  * Contributors: Dave Coleman, Robert Haschke
+
+ -- Dave Coleman <dave@dav.ee>  Fri, 26 Aug 2016 22:00:00 -0000
+
+ros-kinetic-moveit-resources (0.6.0-1xenial) xenial; urgency=high
+
+  * Don't make include dir into build
+  * Place include folder in the devel space instead of the build space
+    fixes #5 .
+  * Add travis indicator
+  * added branch name to build status
+  * added travis build status indicator in README.md
+  * Merge pull request #3 from ros-planning/add-travis
+    added travis support
+  * Contributors: Dave Coleman, Dave Hershberger, Nantas Nardelli, isucan
+
+ -- Dave Coleman <dave@dav.ee>  Fri, 29 Jan 2016 23:00:00 -0000
+
+ros-kinetic-moveit-resources (0.5.0-1xenial) xenial; urgency=high
+
+  * bump version for hydro
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 29 Jul 2013 22:00:00 -0000
+
+ros-kinetic-moveit-resources (0.4.1-1xenial) xenial; urgency=high
+
+  * fix for missing include path
+  * fix for missing config.h
+
+ -- Dave Coleman <dave@dav.ee>  Tue, 02 Jul 2013 22:00:00 -0000
+
+ros-kinetic-moveit-resources (0.4.0-1xenial) xenial; urgency=high
+
+  * fix config.h so it is not created in the source dir
+
+ -- Dave Coleman <dave@dav.ee>  Thu, 23 May 2013 22:00:00 -0000
+
+ros-kinetic-moveit-resources (0.3.1-1xenial) xenial; urgency=high
+
+  * create config file with location of test resources
+
+ -- Dave Coleman <dave@dav.ee>  Sun, 19 May 2013 22:00:00 -0000
+
+ros-kinetic-moveit-resources (0.3.0-1xenial) xenial; urgency=high
+
+  * fix srdf robot name
+  * change robot name to "pr2" to match urdf
+
+ -- Dave Coleman <dave@dav.ee>  Fri, 08 Mar 2013 23:00:00 -0000
+
+ros-kinetic-moveit-resources (0.2.0-1xenial) xenial; urgency=high
+
+  * bump version
+  * update urdf
+
+ -- Dave Coleman <dave@dav.ee>  Mon, 14 Jan 2013 23:00:00 -0000
+
+ros-kinetic-moveit-resources (0.1.1-1xenial) xenial; urgency=high
+
+  * fix buildtool tag
+
+ -- Dave Coleman <dave@dav.ee>  Wed, 19 Dec 2012 23:00:00 -0000
+
+ros-kinetic-moveit-resources (0.1.0-1xenial) xenial; urgency=high
+
+  * add build system
+  * adding test resources
+  * Update README.md
+  * Update README.md
+  * Initial commit
+
+ -- Dave Coleman <dave@dav.ee>  Wed, 12 Dec 2012 23:00:00 -0000
+
+

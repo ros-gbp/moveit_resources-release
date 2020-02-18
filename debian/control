@@ -1,0 +1,12 @@
+Source: ros-kinetic-moveit-resources
+Section: misc
+Priority: optional
+Maintainer: Dave Coleman <dave@dav.ee>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://moveit.ros.org
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-moveit-resources
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-joint-state-publisher, ros-kinetic-robot-state-publisher
+Description: Resources used for MoveIt! testing
