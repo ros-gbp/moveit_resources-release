@@ -1,6 +1,6 @@
 <package>
   <name>moveit_resources</name>
-  <version>0.6.5</version>
+  <version>0.7.0</version>
   <description>Resources used for MoveIt! testing</description>
 
   <author email="isucan@willowgarage.edu">Ioan Sucan</author>
@@ -15,7 +15,18 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <run_depend>moveit_resources_fanuc_description</run_depend>
+  <run_depend>moveit_resources_fanuc_moveit_config</run_depend>
+
+  <run_depend>moveit_resources_panda_description</run_depend>
+  <run_depend>moveit_resources_panda_moveit_config</run_depend>
+
+  <run_depend>moveit_resources_pr2_description</run_depend>
+
   <run_depend>joint_state_publisher</run_depend>
   <run_depend>robot_state_publisher</run_depend>
 
+  <export>
+    <metapackage/>
+  </export>
 </package>
