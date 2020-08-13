@@ -1,3 +1,32 @@
+## moveit_resources (melodic) - 0.7.0-1
+
+The packages in the `moveit_resources` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic moveit_resources` on `Thu, 13 Aug 2020 13:04:30 -0000`
+
+These packages were released:
+- `moveit_resources`
+- `moveit_resources_fanuc_description`
+- `moveit_resources_fanuc_moveit_config`
+- `moveit_resources_panda_description`
+- `moveit_resources_panda_moveit_config`
+- `moveit_resources_pr2_description`
+
+Version of package(s) in repository `moveit_resources`:
+
+- upstream repository: https://github.com/ros-planning/moveit_resources.git
+- release repository: https://github.com/ros-gbp/moveit_resources-release.git
+- rosdistro version: `0.6.5-1`
+- old version: `0.6.5-1`
+- new version: `0.7.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.22`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## moveit_resources (kinetic) - 0.6.5-1
 
 The packages in the `moveit_resources` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release moveit_resources --rosdistro kinetic` on `Tue, 18 Feb 2020 15:28:30 -0000`
