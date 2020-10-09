@@ -1,12 +1,5 @@
-MoveIt Resources
-================
+# fanuc_description
 
-This repository includes various resources (URDFs, meshes, moveit_config packages) needed for MoveIt! testing.
+The URDF model and meshes contained in this package were copied from the ROS-Industrial `fanuc_m10ia_support` package and adapted for use with `moveit_resources`.
 
-[![Build Status](https://travis-ci.org/ros-planning/moveit_resources.png?branch=master)](https://travis-ci.org/ros-planning/moveit_resources)
-
-## Included Robots
-
-- PR2
-- Fanuc M-10iA
-- Franka Emika Panda
+All imported files were released under the BSD 3-Clause license.
