@@ -1,0 +1,16 @@
+ros-noetic-moveit-resources-panda-moveit-config (0.7.1-1focal) focal; urgency=high
+
+  * Fix self-colliding 'extended' pose (#42 <https://github.com/ros-planning/moveit_resources/issues/42>)
+  * Contributors: Henning Kayser
+
+ -- Mike Lautman <mike@picknik.ai>  Fri, 09 Oct 2020 06:00:00 -0000
+
+ros-noetic-moveit-resources-panda-moveit-config (0.7.0-1focal) focal; urgency=high
+
+  * Split resources into multiple packages (#36 <https://github.com/ros-planning/moveit_resources/issues/36>)
+  * Remove solver attempts (#35 <https://github.com/ros-planning/moveit_resources/issues/35>)
+  * Contributors: Michael Görner, Robert Haschke
+
+ -- Mike Lautman <mike@picknik.ai>  Thu, 13 Aug 2020 06:00:00 -0000
+
+
