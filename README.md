@@ -1,3 +1,32 @@
+## moveit_resources (noetic) - 0.7.1-1
+
+The packages in the `moveit_resources` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic moveit_resources` on `Fri, 09 Oct 2020 17:19:48 -0000`
+
+These packages were released:
+- `moveit_resources`
+- `moveit_resources_fanuc_description`
+- `moveit_resources_fanuc_moveit_config`
+- `moveit_resources_panda_description`
+- `moveit_resources_panda_moveit_config`
+- `moveit_resources_pr2_description`
+
+Version of package(s) in repository `moveit_resources`:
+
+- upstream repository: https://github.com/ros-planning/moveit_resources.git
+- release repository: https://github.com/ros-gbp/moveit_resources-release.git
+- rosdistro version: `0.7.0-1`
+- old version: `0.7.0-1`
+- new version: `0.7.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## moveit_resources (noetic) - 0.7.0-1
 
 The packages in the `moveit_resources` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic moveit_resources` on `Thu, 13 Aug 2020 13:27:07 -0000`
