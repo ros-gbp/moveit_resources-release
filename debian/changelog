@@ -1,8 +1,0 @@
-ros-noetic-moveit-resources-fanuc-description (0.7.0-1buster) buster; urgency=high
-
-  * Split resources into multiple packages (#36 <https://github.com/ros-planning/moveit_resources/issues/36>)
-  * Contributors: Robert Haschke, Michael Görner
-
- -- Dave Coleman <dave@dav.ee>  Wed, 12 Aug 2020 22:00:00 -0000
-
-
