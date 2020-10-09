@@ -1,0 +1,14 @@
+ros-noetic-moveit-resources-fanuc-moveit-config (0.7.1-1focal) focal; urgency=high
+
+
+
+ -- Dave Coleman <dave@dav.ee>  Fri, 09 Oct 2020 06:00:00 -0000
+
+ros-noetic-moveit-resources-fanuc-moveit-config (0.7.0-1focal) focal; urgency=high
+
+  * Split resources into multiple packages (#36 <https://github.com/ros-planning/moveit_resources/issues/36>)
+  * Contributors: Robert Haschke, Michael Görner
+
+ -- Dave Coleman <dave@dav.ee>  Thu, 13 Aug 2020 06:00:00 -0000
+
+
