@@ -2,6 +2,14 @@
 Changelog for package moveit_resources
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.2 (2021-03-26)
+------------------
+* Change package maintainer to MoveIt Release Team
+* Contributors: Dave Coleman
+
+0.7.1 (2020-10-09)
+------------------
+
 0.7.0 (2020-08-13)
 ------------------
 * Split resources into multiple packages (`#36 <https://github.com/ros-planning/moveit_resources/issues/36>`_)
