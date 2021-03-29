@@ -1,12 +1,12 @@
 <package>
   <name>moveit_resources_pr2_description</name>
-  <version>0.7.1</version>
+  <version>0.7.2</version>
   <description>PR2 Resources used for MoveIt! testing</description>
 
   <author email="isucan@willowgarage.edu">Ioan Sucan</author>
   <author email="acorn@willowgarage.edu">Acorn Pooley</author>
 
-  <maintainer email="dave@dav.ee">Dave Coleman</maintainer>
+  <maintainer email="moveit_releasers@googlegroups.com">MoveIt Release Team</maintainer>
 
   <license>BSD</license>
   <url type="website">http://moveit.ros.org</url>
