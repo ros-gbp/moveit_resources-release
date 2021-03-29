@@ -1,12 +1,5 @@
-MoveIt Resources
-================
+# panda_description
 
-This repository includes various resources (URDFs, meshes, moveit_config packages) needed for MoveIt! testing.
+The URDF model and meshes contained in this package were copied from the frankaemika `franka_ros` package and adapted for use with `moveit_resources`.
 
-GitHub Actions: [![Format](https://github.com/ros-planning/moveit_resources/actions/workflows/format.yml/badge.svg?branch=master)](https://github.com/ros-planning/moveit_resources/actions/workflows/format.yml?branch=master) [![BuildAndTest](https://github.com/ros-planning/moveit_resources/actions/workflows/industrial_ci_action.yml/badge.svg?branch=master)](https://github.com/ros-planning/moveit_resources/actions/workflows/industrial_ci_action.yml?branch=master)
-
-## Included Robots
-
-- PR2
-- Fanuc M-10iA
-- Franka Emika Panda
+All imported files were released under the Apache-2.0 license.
