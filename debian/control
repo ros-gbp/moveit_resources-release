@@ -1,0 +1,12 @@
+Source: ros-noetic-moveit-resources-pr2-description
+Section: misc
+Priority: optional
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://moveit.ros.org
+Standards-Version: 3.9.2
+
+Package: ros-noetic-moveit-resources-pr2-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: PR2 Resources used for MoveIt! testing
