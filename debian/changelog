@@ -1,0 +1,27 @@
+ros-melodic-moveit-resources-panda-moveit-config (0.7.2-1bionic) bionic; urgency=high
+
+  * Migrate to GitHub Actions (#57 <https://github.com/ros-planning/moveit_resources/issues/57>)
+  * Fix formatting issues
+  * Run multiple planning pipelines with MoveGroup (#47 <https://github.com/ros-planning/moveit_resources/issues/47>)
+  * Update panda_moveit_config launch files: add use_rviz parameter (#52 <https://github.com/ros-planning/moveit_resources/issues/52>)
+  * Add Pilz planner pipeline
+  * Contributors: Christian Henkel, Joachim Schleicher, Henning Kayser, Michael Görner, Robert Haschke, Tyler Weaver
+
+ -- Mike Lautman <mike@picknik.ai>  Thu, 25 Mar 2021 23:00:00 -0000
+
+ros-melodic-moveit-resources-panda-moveit-config (0.7.1-1bionic) bionic; urgency=high
+
+  * Fix self-colliding 'extended' pose (#42 <https://github.com/ros-planning/moveit_resources/issues/42>)
+  * Contributors: Henning Kayser
+
+ -- Mike Lautman <mike@picknik.ai>  Thu, 08 Oct 2020 22:00:00 -0000
+
+ros-melodic-moveit-resources-panda-moveit-config (0.7.0-1bionic) bionic; urgency=high
+
+  * Split resources into multiple packages (#36 <https://github.com/ros-planning/moveit_resources/issues/36>)
+  * Remove solver attempts (#35 <https://github.com/ros-planning/moveit_resources/issues/35>)
+  * Contributors: Michael Görner, Robert Haschke
+
+ -- Mike Lautman <mike@picknik.ai>  Wed, 12 Aug 2020 22:00:00 -0000
+
+
