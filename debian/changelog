@@ -1,9 +1,0 @@
-ros-noetic-moveit-resources-prbt-moveit-config (0.7.2-1buster) buster; urgency=high
-
-  * Run multiple planning pipelines with MoveGroup (#47 <https://github.com/ros-planning/moveit_resources/issues/47>)
-  * Adding PRBT config (#43 <https://github.com/ros-planning/moveit_resources/issues/43>)
-  * Contributors: Christian Henkel, Joachim Schleicher, Henning Kayser
-
- -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Thu, 25 Mar 2021 23:00:00 -0000
-
-
