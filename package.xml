@@ -1,7 +1,7 @@
 <package>
 
   <name>moveit_resources_fanuc_moveit_config</name>
-  <version>0.7.1</version>
+  <version>0.7.2</version>
   <description>
     <p>
       MoveIt Resources for testing: Fanuc M-10iA.
@@ -10,8 +10,8 @@
 		A project-internal configuration for testing in MoveIt.
     </p>
   </description>
-  <author email="dave@dav.ee">Dave Coleman</author>
-  <maintainer email="dave@dav.ee">Dave Coleman</maintainer>
+  <author email="rhaschke@techfak.uni-bielefeld.de">Robert Haschke</author>
+  <maintainer email="moveit_releasers@googlegroups.com">MoveIt Release Team</maintainer>
 
   <license>BSD</license>
 
