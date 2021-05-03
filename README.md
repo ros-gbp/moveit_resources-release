@@ -1,12 +1,5 @@
-MoveIt Resources
-================
+## MoveIt Resources for testing: Franka Emika Panda
 
-This repository includes various resources (URDFs, meshes, moveit_config packages) needed for MoveIt! testing.
+A project-internal moveit configuration for testing in MoveIt.
 
-GitHub Actions: [![Format](https://github.com/ros-planning/moveit_resources/actions/workflows/format.yml/badge.svg?branch=melodic-devel)](https://github.com/ros-planning/moveit_resources/actions/workflows/format.yml?branch=melodic-devel) [![BuildAndTest](https://github.com/ros-planning/moveit_resources/actions/workflows/industrial_ci_action.yml/badge.svg?branch=melodic-devel)](https://github.com/ros-planning/moveit_resources/actions/workflows/industrial_ci_action.yml?branch=melodic-devel)
-
-## Included Robots
-
-- PR2
-- Fanuc M-10iA
-- Franka Emika Panda
+Use the official panda_moveit_config if you actually want to work with the robot!
