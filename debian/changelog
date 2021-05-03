@@ -1,0 +1,10 @@
+ros-melodic-moveit-resources-prbt-pg70-support (0.7.3-1bionic) bionic; urgency=high
+
+  * Fix formatting issues
+  * Adding RPBT config (#43 <https://github.com/ros-planning/moveit_resources/issues/43>)
+    Co-authored-by: Joachim Schleicher <mailto:J.Schleicher@pilz.de>
+  * Contributors: Pilz GmbH and Co. KG, Christian Henkel, Tyler Weaver
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Tue, 27 Apr 2021 22:00:00 -0000
+
+
