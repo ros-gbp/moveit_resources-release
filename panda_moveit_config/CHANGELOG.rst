@@ -2,22 +2,22 @@
 Changelog for package moveit_resources_panda_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.0 (2021-04-28)
+0.7.3 (2021-04-28)
 ------------------
 * Let users specify fake execution type for demo.launch (`#61 <https://github.com/ros-planning/moveit_resources/issues/61>`_)
   Required to invoke demo.launch use_rviz:=false with execution speedup for tests.
   See https://github.com/ros-planning/moveit/pull/2602
   for the corresponding patch in the setup assistant.
-* Contributors: Michael Görner
-
-0.7.2 (2021-03-26)
-------------------
-* Migrate to GitHub Actions (`#57 <https://github.com/ros-planning/moveit_resources/issues/57>`_)
 * Fix formatting issues
-* Run multiple planning pipelines with MoveGroup (`#47 <https://github.com/ros-planning/moveit_resources/issues/47>`_)
-* Update panda_moveit_config launch files: add use_rviz parameter (`#52 <https://github.com/ros-planning/moveit_resources/issues/52>`_)
-* Add Pilz planner pipeline
-* Contributors: Christian Henkel, Joachim Schleicher, Henning Kayser, Michael Görner, Robert Haschke, Tyler Weaver
+* Update panda_moveit_config launch files, add use_rviz parameter (`#52 <https://github.com/ros-planning/moveit_resources/issues/52>`_)
+  Regenerated demo.launch and rviz.launch from setup assistant.
+  The main motivation for this change is the additional use_rviz argument
+  through which rviz can be disabled.
+  The `rviz_tutorial` parameter in moveit_rviz.launch was only ever used
+  through demo.launch and it's easier to handle the different rviz configurations there.
+* Adding RPBT config (`#43 <https://github.com/ros-planning/moveit_resources/issues/43>`_)
+  Co-authored-by: Joachim Schleicher <J.Schleicher@pilz.de>
+* Contributors: Pilz GmbH and Co. KG, Christian Henkel, Michael Görner, Tyler Weaver
 
 0.7.1 (2020-10-09)
 ------------------
