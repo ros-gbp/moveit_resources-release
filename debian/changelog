@@ -1,0 +1,24 @@
+ros-melodic-moveit-resources-pr2-description (0.7.3-1bionic) bionic; urgency=high
+
+  * Fix formatting issues
+  * Change package maintainer: Dave to Robert (#49 <https://github.com/ros-planning/moveit_resources/issues/49>)
+    * Change package maintainer to MoveIt Release Team
+    Co-authored-by: Robert Haschke <mailto:rhaschke@techfak.uni-bielefeld.de>
+  * Contributors: Dave Coleman, Tyler Weaver
+
+ -- MoveIt Release Team <moveit_releasers@googlegroups.com>  Tue, 27 Apr 2021 22:00:00 -0000
+
+ros-melodic-moveit-resources-pr2-description (0.7.1-1bionic) bionic; urgency=high
+
+
+
+ -- MoveIt Release Team <moveit_releasers@googlegroups.com>  Thu, 08 Oct 2020 22:00:00 -0000
+
+ros-melodic-moveit-resources-pr2-description (0.7.0-1bionic) bionic; urgency=high
+
+  * Split resources into multiple packages (#36 <https://github.com/ros-planning/moveit_resources/issues/36>)
+  * Contributors: Robert Haschke, Michael Görner
+
+ -- Dave Coleman <dave@dav.ee>  Wed, 12 Aug 2020 22:00:00 -0000
+
+
