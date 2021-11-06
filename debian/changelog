@@ -1,0 +1,47 @@
+ros-noetic-moveit-resources-fanuc-moveit-config (0.8.1-1focal) focal; urgency=high
+
+  * Rename launch parameter ``execution_type`` -> ``fake_execution_type`` to clarify that it is only used for fake controllers
+  * Replace ``$(find moveit_resources\_*_moveit_config)/launch/*`` -> ``$(dirname)/*``
+  * Introduce ``prbt_moveit_config/launch/test_environment.launch``
+  * Minor fixes (#90 <https://github.com/ros-planning/moveit_resources/issues/90>)
+    * CHOMP parameter ``collision_clearance`` got renamed (fixed typo)
+    * Fix empty sensors_3d.yaml
+    * ``setup_assistant.launch``: require MSA node
+  * Contributors: Michael Görner, Robert Haschke
+
+ -- MoveIt Release Team <moveit_releasers@googlegroups.com>  Fri, 05 Nov 2021 23:00:00 -0000
+
+ros-noetic-moveit-resources-fanuc-moveit-config (0.8.0-1focal) focal; urgency=high
+
+  * Let users specify fake execution type for demo.launch (#61 <https://github.com/ros-planning/moveit_resources/issues/61>)
+    Required to invoke demo.launch use_rviz:=false with execution speedup for tests.
+    See https://github.com/ros-planning/moveit/pull/2602
+    for the corresponding patch in the setup assistant.
+  * Contributors: Michael Görner
+
+ -- MoveIt Release Team <moveit_releasers@googlegroups.com>  Tue, 27 Apr 2021 22:00:00 -0000
+
+ros-noetic-moveit-resources-fanuc-moveit-config (0.7.2-1focal) focal; urgency=high
+
+  * Migrate to GitHub Actions (#57 <https://github.com/ros-planning/moveit_resources/issues/57>)
+  * Fix formatting issues
+  * Run multiple planning pipelines with MoveGroup (#47 <https://github.com/ros-planning/moveit_resources/issues/47>)
+  * Change package maintainer to MoveIt Release Team
+  * Contributors: Dave Coleman, Henning Kayser, Robert Haschke, Tyler Weaver
+
+ -- MoveIt Release Team <moveit_releasers@googlegroups.com>  Thu, 25 Mar 2021 23:00:00 -0000
+
+ros-noetic-moveit-resources-fanuc-moveit-config (0.7.1-1focal) focal; urgency=high
+
+
+
+ -- Dave Coleman <dave@dav.ee>  Thu, 08 Oct 2020 22:00:00 -0000
+
+ros-noetic-moveit-resources-fanuc-moveit-config (0.7.0-1focal) focal; urgency=high
+
+  * Split resources into multiple packages (#36 <https://github.com/ros-planning/moveit_resources/issues/36>)
+  * Contributors: Robert Haschke, Michael Görner
+
+ -- Dave Coleman <dave@dav.ee>  Wed, 12 Aug 2020 22:00:00 -0000
+
+
