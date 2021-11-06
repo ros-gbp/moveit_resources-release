@@ -2,11 +2,15 @@
 Changelog for package moveit_resources_fanuc_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.3 (2021-04-28)
+0.8.1 (2021-11-06)
 ------------------
-* Change package maintainer: Dave to Robert (`#49 <https://github.com/ros-planning/moveit_resources/issues/49>`_)
-  * Change package maintainer to MoveIt Release Team
-  Co-authored-by: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+
+0.8.0 (2021-04-28)
+------------------
+
+0.7.2 (2021-03-26)
+------------------
+* Change package maintainer to MoveIt Release Team
 * Contributors: Dave Coleman
 
 0.7.1 (2020-10-09)
