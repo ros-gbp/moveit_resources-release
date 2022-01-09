@@ -1,14 +1,12 @@
-# Overview
+MoveIt Resources
+================
 
-The prbt_support package contains files to start the PRBT manipulator. To start the robot run `roslaunch prbt_support robot.launch`.
+This repository includes various resources (URDFs, meshes, moveit_config packages) needed for MoveIt! testing.
 
-# ROS API
+GitHub Actions: [![Format](https://github.com/ros-planning/moveit_resources/actions/workflows/format.yml/badge.svg?branch=melodic-devel)](https://github.com/ros-planning/moveit_resources/actions/workflows/format.yml?branch=melodic-devel) [![BuildAndTest](https://github.com/ros-planning/moveit_resources/actions/workflows/industrial_ci_action.yml/badge.svg?branch=melodic-devel)](https://github.com/ros-planning/moveit_resources/actions/workflows/industrial_ci_action.yml?branch=melodic-devel)
 
-## SystemInfoNode
+## Included Robots
 
-Logs important system information.
-
-### Used Services
-
-- /prbt/driver/get_object (canopen_chain_node/GetObject)
-  - Read CANOpen object holding firmware information.
+- PR2
+- Fanuc M-10iA
+- Franka Emika Panda
