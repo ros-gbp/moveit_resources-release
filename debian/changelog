@@ -1,0 +1,67 @@
+ros-noetic-moveit-resources-panda-moveit-config (0.8.3-1focal) focal; urgency=high
+
+  * Add ResolveConstraintFrames to all planning pipelines
+  * Add dual_panda_moveit_config (#133 <https://github.com/ros-planning/moveit_resources/issues/133>)
+  * Contributors: Robert Haschke, Cristian Beltran
+
+ -- MoveIt maintainer team <moveit_releasers@googlegroups.com>  Thu, 09 Nov 2023 23:00:00 -0000
+
+ros-noetic-moveit-resources-panda-moveit-config (0.8.2-1focal) focal; urgency=high
+
+  * test_environment.launch: use fake_execution_type="last point" by default
+  * Contributors: Robert Haschke
+
+ -- MoveIt maintainer team <moveit_releasers@googlegroups.com>  Wed, 17 Nov 2021 23:00:00 -0000
+
+ros-noetic-moveit-resources-panda-moveit-config (0.8.1-1focal) focal; urgency=high
+
+  * Recreated moveit_resources_panda_moveit_config with latest MSA (#92 <https://github.com/ros-planning/moveit_resources/issues/92>)
+  * Rename launch parameter ``execution_type`` -> ``fake_execution_type`` to clarify that it is only used for fake controllers
+  * Replace ``$(find moveit_resources\_*_moveit_config)/launch/*`` -> ``$(dirname)/*``
+  * Introduce ``prbt_moveit_config/launch/test_environment.launch``
+  * Remove TrajOpt planner config from OMPL pipeline (#85 <https://github.com/ros-planning/moveit_resources/issues/85>)
+  * Minor fixes (#90 <https://github.com/ros-planning/moveit_resources/issues/90>)
+    * CHOMP parameter ``collision_clearance`` got renamed (fixed typo)
+    * Fix empty sensors_3d.yaml
+    * ``setup_assistant.launch``: require MSA node
+  * Contributors: Captain Yoshi, Michael Görner, Robert Haschke
+
+ -- MoveIt maintainer team <moveit_releasers@googlegroups.com>  Fri, 05 Nov 2021 23:00:00 -0000
+
+ros-noetic-moveit-resources-panda-moveit-config (0.8.0-1focal) focal; urgency=high
+
+  * Let users specify fake execution type for demo.launch (#61 <https://github.com/ros-planning/moveit_resources/issues/61>)
+    Required to invoke demo.launch use_rviz:=false with execution speedup for tests.
+    See https://github.com/ros-planning/moveit/pull/2602
+    for the corresponding patch in the setup assistant.
+  * Contributors: Michael Görner
+
+ -- Mike Lautman <mike@picknik.ai>  Tue, 27 Apr 2021 22:00:00 -0000
+
+ros-noetic-moveit-resources-panda-moveit-config (0.7.2-1focal) focal; urgency=high
+
+  * Migrate to GitHub Actions (#57 <https://github.com/ros-planning/moveit_resources/issues/57>)
+  * Fix formatting issues
+  * Run multiple planning pipelines with MoveGroup (#47 <https://github.com/ros-planning/moveit_resources/issues/47>)
+  * Update panda_moveit_config launch files: add use_rviz parameter (#52 <https://github.com/ros-planning/moveit_resources/issues/52>)
+  * Add Pilz planner pipeline
+  * Contributors: Christian Henkel, Joachim Schleicher, Henning Kayser, Michael Görner, Robert Haschke, Tyler Weaver
+
+ -- Mike Lautman <mike@picknik.ai>  Thu, 25 Mar 2021 23:00:00 -0000
+
+ros-noetic-moveit-resources-panda-moveit-config (0.7.1-1focal) focal; urgency=high
+
+  * Fix self-colliding 'extended' pose (#42 <https://github.com/ros-planning/moveit_resources/issues/42>)
+  * Contributors: Henning Kayser
+
+ -- Mike Lautman <mike@picknik.ai>  Thu, 08 Oct 2020 22:00:00 -0000
+
+ros-noetic-moveit-resources-panda-moveit-config (0.7.0-1focal) focal; urgency=high
+
+  * Split resources into multiple packages (#36 <https://github.com/ros-planning/moveit_resources/issues/36>)
+  * Remove solver attempts (#35 <https://github.com/ros-planning/moveit_resources/issues/35>)
+  * Contributors: Michael Görner, Robert Haschke
+
+ -- Mike Lautman <mike@picknik.ai>  Wed, 12 Aug 2020 22:00:00 -0000
+
+
