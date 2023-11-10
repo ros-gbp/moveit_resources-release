@@ -1,6 +1,6 @@
 <package>
   <name>moveit_resources_panda_description</name>
-  <version>0.8.2</version>
+  <version>0.8.3</version>
   <description>panda Resources used for MoveIt! testing</description>
 
   <author email="isucan@willowgarage.edu">Ioan Sucan</author>
@@ -14,4 +14,5 @@
   <url type="repository">https://github.com/ros-planning/moveit-resources</url>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>xacro</build_depend>
 </package>
