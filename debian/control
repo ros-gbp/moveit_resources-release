@@ -1,0 +1,12 @@
+Source: ros-noetic-moveit-resources-panda-description
+Section: misc
+Priority: optional
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-xacro
+Homepage: http://moveit.ros.org
+Standards-Version: 3.9.2
+
+Package: ros-noetic-moveit-resources-panda-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: panda Resources used for MoveIt! testing
