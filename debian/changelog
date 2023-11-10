@@ -1,0 +1,36 @@
+ros-noetic-moveit-resources-prbt-ikfast-manipulator-plugin (0.8.3-1focal) focal; urgency=high
+
+  * Do not enforce old C++ standard (#155 <https://github.com/ros-planning/moveit_resources/issues/155>)
+  * Declare conflict with old Pilz package (#153 <https://github.com/ros-planning/moveit_resources/issues/153>)
+  * Limit gcc/clang options to non-Windows builds (#112 <https://github.com/ros-planning/moveit_resources/issues/112>)
+  * Contributors: Michael Görner, Robert Haschke, Tobias Fischer
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Thu, 09 Nov 2023 23:00:00 -0000
+
+ros-noetic-moveit-resources-prbt-ikfast-manipulator-plugin (0.8.2-1focal) focal; urgency=high
+
+
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Wed, 17 Nov 2021 23:00:00 -0000
+
+ros-noetic-moveit-resources-prbt-ikfast-manipulator-plugin (0.8.1-1focal) focal; urgency=high
+
+  * Disable clang-tidy for ikfast package
+  * Contributors: Robert Haschke
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Fri, 05 Nov 2021 23:00:00 -0000
+
+ros-noetic-moveit-resources-prbt-ikfast-manipulator-plugin (0.8.0-1focal) focal; urgency=high
+
+
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Tue, 27 Apr 2021 22:00:00 -0000
+
+ros-noetic-moveit-resources-prbt-ikfast-manipulator-plugin (0.7.2-1focal) focal; urgency=high
+
+  * Adding PRBT config (#43 <https://github.com/ros-planning/moveit_resources/issues/43>)
+  * Contributors: Christian Henkel, Joachim Schleicher
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Thu, 25 Mar 2021 23:00:00 -0000
+
+
